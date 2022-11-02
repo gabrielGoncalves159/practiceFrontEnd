@@ -1,0 +1,25 @@
+.body{
+    width: 200px;
+    height: 180px;
+    border: 1px solid black;
+}
+
+.elementos{
+    margin: 30px;
+    flex-direction: column;
+    display: flex;
+    justify-contet: center;
+
+}
+
+.inputNumber{
+    weight: 
+}
+
+.resultado{
+
+}
+
+.buttonStart{
+
+}
