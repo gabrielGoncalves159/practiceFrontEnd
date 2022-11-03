@@ -1,19 +1,23 @@
+#main .body {
+    display: flex;
+    align-items: center;
+}
 .body{
     width: 200px;
     height: 180px;
     border: 1px solid black;
-}
-
-.elementos{
-    margin: 30px;
+    align-items: center;
     flex-direction: column;
     display: flex;
-    justify-contet: center;
-
+    justify-content: space-around;
 }
 
 .inputNumber{
-    weight: 
+    text-align: center;
+    border: none;
+    width:180px;
+    height: 20px;
+
 }
 
 .resultado{
@@ -21,5 +25,16 @@
 }
 
 .buttonStart{
+    width:180px;
+    height: 20px;
+    text-align: center;
+    background-color: #cbd5e1;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
 
+.buttonStart:hover{
+    background-color: #94a3b8;
+    color: white;
 }

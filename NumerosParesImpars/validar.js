@@ -14,10 +14,10 @@
         } else if (validar === '') {
             document.querySelector('#resultado').textContent = "Digite um número!";
         } else if (validar % 2 !== 0){
-            document.querySelector('#resultado').textContent = "O núnero é IMPAR!";
+            document.querySelector('#resultado').textContent = "O número é IMPAR!";
 
         } else if (validar % 2 === 0) {
-            document.querySelector('#resultado').textContent = "O núnero é PAR!";
+            document.querySelector('#resultado').textContent = "O número é PAR!";
         }
 
     }
